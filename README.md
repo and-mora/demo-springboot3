@@ -1,0 +1,1 @@
+Demo project for building native image with Spring Boot 3 for GraalVM JDK.
