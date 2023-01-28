@@ -36,8 +36,7 @@ COPY . /build
 RUN mvn clean package -Pnative
 
 # The deployment Image
-#FROM docker.io/oraclelinux:9-slim
-FROM alpine:latest
+FROM debian:stable-slim
 
 EXPOSE 8080
 
